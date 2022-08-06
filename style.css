@@ -1,0 +1,84 @@
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+}
+
+
+
+input {
+    height: 30px;
+    margin-top: 10px;
+    margin-right: 4px;
+    display: inline;
+}
+
+#start {
+    text-align: center;
+}
+
+#retry {
+    text-align: right;
+}
+
+h2 {
+    margin-bottom: 0px;
+}
+
+h4 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.hidden {
+    display: none;
+}
+
+.disable-click {
+    pointer-events: none;
+    touch-action: none;
+}
+
+.rectangle {
+    border-width: 1px;
+    border-color: black;
+    background-color: white;
+    border-style: solid;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    margin-right: 4px;
+}
+
+
+@keyframes change {
+    0% {
+        background-color: white;
+    }
+    50% {
+        background-color: lightsteelblue;
+    }
+    100% {
+        background-color: white;
+    }
+}
+
+.change-color {
+    animation: change 0.4s ease-in /* infinite alternate */;
+}
+
+.stop-animation {
+    animation-play-state: paused;
+}
+
+#whole-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    gap: 10px;
+    height: 100%;
+}
